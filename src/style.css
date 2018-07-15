@@ -1,0 +1,55 @@
+.userphoto {
+  border-radius: 50%;
+  width: 100%
+}
+
+div.cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.userinfo {
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.userinfo__2 {
+  margin-top: 1px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.info {
+  text-align: left;
+  margin-left: 10px;
+  height: auto;
+}
+
+.changeViewButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.changeViewButton > button {
+  background: transparent;
+  border: solid 1px;
+  border-radius: 5px;
+  border-color: black;
+  box-shadow: 1px 1px 1px 1px;
+  padding: 10px;
+  transform: skew(15deg)
+}
+
+.changeViewButton > button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.infoCategory{
+  color: grey;
+}
